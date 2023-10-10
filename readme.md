@@ -10,5 +10,8 @@
 - 字符串模板用双引号
 - if [ ! -z "$1" ];then   注意方括号左右两边的空格
 
-### git
-重新设置了git 仓库 email name设置
+### 步骤 
+先clone  clone.sh   //保证ssh gitconfig配置过
+在设置git 配置  configgit.sh
+在跑每日代码  day.sh
+
